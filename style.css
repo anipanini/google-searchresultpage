@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#header img {
+    width: 100px;
+    padding: 20px;
+}
+
+#search-bar-container {
+    padding-top: 15px;
+    width: 60%;
+}
+
+#search-bar {
+    height: 35px;
+    display: block;
+    width: 100%;
+    border-radius: 100px;
+    border: 0.5px gray solid;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-right: 430px;
+    padding: 10px;
+    font-size: 13px;
+    margin-left: 140px;
+
+}
+
+.nav-link-items {
+    display: inline;
+    padding: 10px;
+}
+
+#content {
+    margin-left: 140px;
+    margin-right: 300px;
+}
+
+#result-count {
+    display: block;
+    color: gray;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
+#nav-hr {
+    height: 0.5px;
+    background-color: rgb(218, 217, 217);
+    border: none;
+}
+
+article {
+    padding-top: 10px;
+    
+}
+
+.website-source {
+    font-size: 14px;
+    display: block;
+    padding: 7px 0px;
+}
+
+.search-result-title {
+    display: block;
+    font-size: 20px;
+    padding: 7px 0px;
+}
+
+.search-result-desc {
+    font-size: 14px;
+}
+
+#related-searches-ul-title {
+    font-size: 20px;
+    display: block;
+    padding: 15px 0px;
+}
+
+#rel-searches-ul {
+    list-style-type: none;
+    columns: 2;
+    font-size: 15px;
+}
+
+#rel-searches-ul li {
+    padding: 3px;
+}
+
+#page-nav {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+#gooogle {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+footer {
+    background-color: rgb(238, 238, 238);
+    font-size: 14px;
+    border-top: 0.5px solid gray;
+}
+
+#footer-layer-1 {
+    margin-left: 140px;
+    padding: 10px 0px;
+}
+
+#footer-layer-2 {
+    margin-left: 140px;
+    padding: 10px 0px;
+}
+
+
+#footerlinks-ul {
+    list-style-type: none;
+}
+
+#footerlinks-ul li {
+    display: inline;
+    padding-right: 10px;
+}
+
+#loc-country {
+    border-right: 0.5px solid gray;
+    padding-right: 10px !important;
+}
+
+#loc-city {
+    padding-left: 10px;
+}
